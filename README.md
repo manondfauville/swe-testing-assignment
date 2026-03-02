@@ -49,7 +49,7 @@ pytest
 
 ## Testing Framework Research
 
-### Pytest vs Unittest: A Comparative Analysis
+### Pytest vs Unittest
 
 Python has two main testing frameworks: Pytest and Unittest. Unittest is built into Python and uses a class-based structure. You need to put tests inside classes that inherit from TestCase, and use special assertion methods. It works fine but can feel a bit long and heavy for small projects. Pytest is a third-party framework that lets you write tests as simple functions and just use normal Python assert statements. It also has fixtures to make setup and teardown easier, and it has a lot of useful plugins.
 
